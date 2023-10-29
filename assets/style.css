@@ -1,0 +1,151 @@
+/* body{
+    font-size: 62.5%;
+} */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 1rem;
+    position: sticky;
+    /* top: 0; */
+    /* width: 100%; */
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.nav-items-div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.25rem;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.navbar .header .logo{
+    fill:#e70023;
+ }
+ 
+ .navbar .header .logo_name{
+     color:#e70023;
+     font-weight: 600;
+     font-size: 20px;
+  }
+
+  /* .nav-items-div .links{
+    display: flex;
+    gap:1rem;
+     align-items: center;
+} */
+
+.nav-items-div .nav-links{
+    display: flex;
+    gap:1rem;
+    /* align-items: center; */
+}
+
+.nav-items-div .nav-links .link_name{
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-items-div .nav-links .link_name:hover{
+    text-decoration: underline;
+}
+
+.nav-items-div  .link_buttons{
+    display: flex;
+    gap:0.625rem;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 24px;
+    
+}
+
+.link_button{
+    background-color: #EFEFEF;
+    padding: 0.6rem 0.825rem;
+    border-radius: 20px;
+    text-transform: capitalize;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.link_buttons .login-btn{
+    background-color: #e70023 !important;
+    color: white;
+}
+.main-container{
+    height: 100%;
+}
+.search-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffd92;
+    height: calc(100vh - 76px);
+    gap:2rem;
+}
+.search-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 1rem; */
+    align-items: center;
+    color: rgb(195, 25, 82);
+    margin-right: 8rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+}
+.info-header{
+    align-items: center;
+    font-size: 3.75rem;
+    font-weight: bold;
+}
+.info-content{
+    max-width: 400px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.info-action{
+    height: max-content;
+}
+.info-action-btn{
+    background-color: rgb(195, 25, 82);
+    color: rgb(255, 253, 158);
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 1.5625rem;
+}
+
+.chicken-img {
+    flex-wrap: nowrap;
+}
+
+.search-section .chicken-img{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    /* z-index: 2; */
+}
+.chicken-img .img2{
+    /* z-index: 1; */
+    position: relative;
+    top:10%;
+    right: -15%;
+    margin-bottom: 5.5rem;
+}
+.chicken-img .img1{
+    position: relative;
+    z-index: 2;
+
+}
